@@ -5,6 +5,11 @@
 //  Created by HarshPipaliya on 05/10/2026.
 //
 
+
+import PriceFeed
+import SymbolListFeature
+import SymbolDetailFeature
+
 import SwiftUI
 
 @main

@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3AFD1B2630740C420055D7BA /* PriceFeed in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFD1B2530740C420055D7BA /* PriceFeed */; };
+		3AFD1B2830740C420055D7BA /* SymbolDetailFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFD1B2730740C420055D7BA /* SymbolDetailFeature */; };
+		3AFD1B2A30740C420055D7BA /* SymbolListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 3AFD1B2930740C420055D7BA /* SymbolListFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3AFD1AE53073FBCE0055D7BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,7 @@
 		3AFD1AD73073FBCD0055D7BA /* Tickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD1AE43073FBCE0055D7BA /* TickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD1AEE3073FBCE0055D7BA /* TickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFD1B043074072E0055D7BA /* TickrKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TickrKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFD1B2A30740C420055D7BA /* SymbolListFeature in Frameworks */,
+				3AFD1B2830740C420055D7BA /* SymbolDetailFeature in Frameworks */,
+				3AFD1B2630740C420055D7BA /* PriceFeed in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +85,11 @@
 		3AFD1ACE3073FBCD0055D7BA = {
 			isa = PBXGroup;
 			children = (
+				3AFD1B043074072E0055D7BA /* TickrKit */,
 				3AFD1AD93073FBCD0055D7BA /* Tickr */,
 				3AFD1AE73073FBCE0055D7BA /* TickrTests */,
 				3AFD1AF13073FBCE0055D7BA /* TickrUITests */,
+				3AFD1B2430740C420055D7BA /* Frameworks */,
 				3AFD1AD83073FBCD0055D7BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +102,13 @@
 				3AFD1AEE3073FBCE0055D7BA /* TickrUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFD1B2430740C420055D7BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +131,9 @@
 			);
 			name = Tickr;
 			packageProductDependencies = (
+				3AFD1B2530740C420055D7BA /* PriceFeed */,
+				3AFD1B2730740C420055D7BA /* SymbolDetailFeature */,
+				3AFD1B2930740C420055D7BA /* SymbolListFeature */,
 			);
 			productName = Tickr;
 			productReference = 3AFD1AD73073FBCD0055D7BA /* Tickr.app */;
@@ -575,6 +597,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AFD1B2530740C420055D7BA /* PriceFeed */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PriceFeed;
+		};
+		3AFD1B2730740C420055D7BA /* SymbolDetailFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SymbolDetailFeature;
+		};
+		3AFD1B2930740C420055D7BA /* SymbolListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SymbolListFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AFD1ACF3073FBCD0055D7BA /* Project object */;
 }
