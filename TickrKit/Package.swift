@@ -12,9 +12,12 @@ let package = Package(
         .library(name: "SymbolListFeature", targets: ["SymbolListFeature"]),
         .library(name: "SymbolDetailFeature", targets: ["SymbolDetailFeature"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.0")
+    ],
     targets: [
         .target(name: "Domain"),
-        .target(name: "Networking"),
+        .target(name: "Networking", dependencies: [.product(name: "Starscream", package: "Starscream")]),
         .target(name: "PriceFeed", dependencies: ["Domain", "Networking"]),
         .target(name: "DesignSystem", dependencies: ["Domain"]),
         .target(name: "SymbolListFeature", dependencies: ["Domain", "DesignSystem"]),
