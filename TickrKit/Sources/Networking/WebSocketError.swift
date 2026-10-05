@@ -7,5 +7,5 @@
 
 public enum WebSocketError: Error, Sendable {
     case notConnected
-    case unsupportedMessage
+    case connectionFailed
 }
