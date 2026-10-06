@@ -36,9 +36,22 @@
 		3AFD1B043074072E0055D7BA /* TickrKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TickrKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3AFD1B4030750A000055D7BA /* Exceptions for "Tickr" folder in "Tickr" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3AFD1AD63073FBCD0055D7BA /* Tickr */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3AFD1AD93073FBCD0055D7BA /* Tickr */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3AFD1B4030750A000055D7BA /* Exceptions for "Tickr" folder in "Tickr" target */,
+			);
 			path = Tickr;
 			sourceTree = "<group>";
 		};
@@ -89,7 +102,6 @@
 				3AFD1AD93073FBCD0055D7BA /* Tickr */,
 				3AFD1AE73073FBCE0055D7BA /* TickrTests */,
 				3AFD1AF13073FBCE0055D7BA /* TickrUITests */,
-				3AFD1B2430740C420055D7BA /* Frameworks */,
 				3AFD1AD83073FBCD0055D7BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,13 +114,6 @@
 				3AFD1AEE3073FBCE0055D7BA /* TickrUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3AFD1B2430740C420055D7BA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,9 +427,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tickr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
@@ -454,9 +459,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tickr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
