@@ -6,6 +6,10 @@ Prices are generated every 2 seconds the app sends a random price for each symbo
 
 Here for echo WebSocket server and getting data back via socket used AI help to make TBH.
 
+## ShowCase
+
+https://github.com/user-attachments/assets/93d5d27d-6482-4b74-9bbc-ae378ac8f168
+
 ## Structure
 
 Got an idea of creating `TickrKit`  package withing app with modules in it from flutter as in one of recent project added monorepos.
